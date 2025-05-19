@@ -1,0 +1,96 @@
+import { CoffeeRoast, CoffeeRecipe, Syrup } from "./CoffeeRecipe";
+
+export const CoffeeData: CoffeeRecipe[] = [
+  {
+    title: "Ice Americano",
+    ingredients: [CoffeeRoast.Light, Syrup, "cold water", "ice"],
+    steps: [
+      "Add(pour) (4)oz of cold water to the cup.",
+      "Make ready the roasted coffee",
+      "Mix the roasted coffee to the water slowly",
+      "Fill the cup with ice—let it overflow a bit.",
+    ],
+  },
+  {
+    title: "Hot Americano",
+    ingredients: [CoffeeRoast.Light, Syrup, "hot water"],
+    steps: [
+      "Add(pour) (4)oz of hot water to the disposable cup.",
+      "Make ready the roasted coffee",
+      "Mix the roasted coffee to the water slowly",
+    ],
+  },
+  {
+    title: "Ice Latte(Brazil Santos Beans",
+    ingredients: [CoffeeRoast.Light, Syrup, "fresh milk", "ice"],
+    steps: [
+      "Add(pour) (4)oz of fres milk to the mag.",
+      "Add syrup according to the sweetness level.",
+      "Mix the fresh milk and syrup, and stare well, and then put the mixing to the cup.",
+      "Fill the cup with ice.",
+      "Make the roasted coffee ready.",
+      "Pour the roasted coffee onto the ice.",
+      "Make sure the ice a little bit overflow.",
+    ],
+  },
+  {
+    title: "Nutella Mocca",
+    ingredients: [
+      CoffeeRoast.Light,
+      Syrup,
+      "nutella paste",
+      "fresh milk",
+      "coconut powder",
+      "milk foam",
+    ],
+    steps: [
+      "Put the nutella paste on the internal surface of the cup for decoration.",
+      "Add (4)oz of fresh milk in to the cup.",
+      "Add syrup according to the sweetness level and stir well.",
+      "And the fill the cup with ice.",
+      "Make ready the roasted coffee.",
+      "Mix roasted coffee, 15g of nutella and about 1g of coconut powder.",
+      "Pour the mixture onto the ice.",
+      "Add milk foam on the top.",
+      "Add some coconut powder on the top of it.",
+    ],
+  },
+  {
+    title: "Mocoa",
+    ingredients: [
+      CoffeeRoast.Light,
+      Syrup,
+      "chocolate topping",
+      "fresh milk",
+      "mocoa powder",
+      "coconut powder",
+      "milk foam",
+    ],
+    steps: [
+      "Top chocolate topping on the internal surface of the cup for decoration purpose.",
+      "Pour (4)oz of fresh milk into the cup.",
+      "Add syrup according to the sweetness level and stir well.",
+      "Fill the cup with ice",
+      "Add Mocoa powder with the filter into the porcelain cup.",
+      "Add (1)g of coconut powder onto the mocoa powder.",
+      "Pour (200)ml of cold water onto the mixed powder and stir well.",
+      "And then pour the mixture onto the ice.",
+      "Add milk foam on the top.",
+      "Add some coconut powder on the top of it.",
+    ],
+  },
+  {
+    title: "Hojicha Latte",
+    ingredients: [CoffeeRoast.Light, Syrup, "fresh milk", "hot water", "ice"],
+    steps: [
+      "Add (160)ml of fresh milk into the cup. ",
+      "Add syrup according to the sweetness level and stir well.",
+      "Fill the cup with ice",
+      "Pour (2)oz of hot water into the porcelain cup.",
+      "Add (4.5)g of hojicha powder onto the hot water and mix them with the machine.",
+      "Pour the mixture onto the ice",
+      "Add some hojicha powder on the top.",
+    ],
+  },
+  // { title: "", ingredients: [CoffeeRoast.Light, Syrup], steps: [] },
+];
